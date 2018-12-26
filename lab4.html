@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    console.log('Лабараторная 4')
+    //Упражнение 1
+    var Numbers = [0, 1, 2, 3, 4]
+     console.log('[0, 1, 2, 3, 4]');
+     console.log('Выводим в консоль значения 2-го и предпоследнего: ', Numbers[1], ',', Numbers.length-2);
+     console.log('Размер массива = ', Numbers.length);
+     // Упражнение 2
+     var Letters = ["Мерседес", "Шкода", "Тойота", "Ниссан", "Мазда"];
+       console.log(["Мерседес", "Шкода", "Тойота", "Ниссан", "Мазда"]);
+       [Letters[0], Letters[2]] = [Letters[2], Letters[0]];
+       console.log(Letters);
+       // Упражнение 3
+       var A = [Math.random(), Math.random(), Math.random()]
+     console.log(A);
+    // Упражнение 4
+    var A = [Math.random(), Math.random(), Math.random()]
+     console.log(A)
+     A.push(100), A.unshift(100)
+     console.log(A)
+     A.shift(), A.pop()
+     console.log(A);
+     A.length = 0
+     console.log(A);
+     // Упражнение 5
+     var colors = [" white "," blue "," yellow "]
+      console.log(colors.join(','));
+      console.log(colors.join('и'));
+      console.log(colors.join('или'));
+      console.log(colors.join(','));
+      console.log(colors.join(':'));
+      console.log(A);
+      A.length = 0
+    // Упражнение 6
+    var colors = ["white", "blue", "yellow"]
+    var numbers = [1, 2, 3]
+    var colorNumber = colors.concat(numbers)
+    console.log(colors);
+    console.log(colorNumber);
+    // Упражнение 7
+    var arr = [1,2,3,4,5,6]
+      console.log(arr.slice(1));
+      console.log(arr.slice(1,4));
+      console.log(arr.slice(3,4));
+      console.log(arr.slice(-2));
+      console.log(arr.slice(arr.length-2));
+      console.log(arr.slice(-3,-1));
+      console.log(arr.slice(arr.length-3,arr.length-1));
+    // Упражнение 8
+    var colors = ["white","yellow" ,"blue",]
+        console.log(colors);
+        colors.reverse()
+        console.log(colors);
+        colors.sort()
+        console.log(colors);
+    // Упражнение 9
+    var arr = [1,2,3,4,5,6]
+        arr.splice(3,2)
+        console.log(arr)
+        arr.splice(-5,2)
+        console.log(arr)
+        arr.splice(2,0,7)
+        console.log(arr)
+  </script>
+</body>
+</html>

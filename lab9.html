@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  console.log('Лабараторная 9');
+   //Пример
+   for(var i=0; i<A.length; i++){
+   S=S + A[i]
+     }
+     //1
+    var arr=[], S=0
+      for (var i=0 ; i<=4; i++){
+        arr[i]=+prompt('Введите число arr[i]');
+        console.log("arr"+i+ ""+arr[i]);
+        S=S=arr[i]
+      }
+      console.log('Сумма чисел :' +S);
+      //2
+      var P=1 , arr=[],i, A=prompt
+      for (i=0;i<A;i++){
+        arr[i]=Math.round(Math.random()*20)
+      }
+      console.log(arr);
+      for (i=0; i<arr.length;i++){
+        P=P*arr[i]
+      }
+      console.log(P);
+      //3
+      var arr=[],S=0, cnt=0
+        for (i=0;i<5;i++){
+          arr[i]= +prompt ('ВВедите число значений arr[i]','')
+          console.log('arr'+i+'='+arr[i]);
+        }
+          for(i=0;i<arr.length;i++)
+            if(arr[i]<0){
+              S= S+arr[i]
+              cnt++
+            }
+            console.log(S/cnt);
+</script>
+</body>
+</html>

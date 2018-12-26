@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    console.log ('Лабараторная 6')
+    // Упражнение 0
+    var question = prompt('В каком году ты поступил в КИПУ?','')
+    if(question !=2017)alert('Не правильно!')
+    var question = prompt('В каком году ты поступил в КИПУ?','')
+    if(question !=2017)
+      alert('Не правильно!')
+      alert('Спроси у Ахтема!')
+      var question=prompt('В каком году потупил в КИПУ?','')
+      if(question != 2017)
+      alert('Не правильно!')
+      else
+      alert('Привет первокурсник!')
+      // Упражнение 1
+      var A= prompt("Назови число А.","")
+      var B= prompt("Назови число B.","")
+      var C
+      if( A>B)
+       C=A
+      else
+       C=B
+      alert(C)
+      // Упражнение 2
+      var X= prompt("Назови число X.","")
+      var Y= prompt("Назови число Y.","")
+      var C
+      if (X>Y)
+      {C=X; X=Y; Y=C;}
+      alert(X+','+Y)
+      console.log("")
+    //Упражнение 7
+    var num1 = +prompt("enter num1","")
+    var sign = prompt("enter sign","")
+    var num2 = +prompt("enter num2",""), result
+    if(sign == "+"){
+      result =num1+num2
+      alert(result);
+    }
+    else
+      if (sign == "-"){
+        result = num1 - num2
+        alert(result)
+      }
+      else if (sign == "*" ){
+        result = num1*num2
+        alert(result)
+      }
+      else
+        if (sign == "/" ){
+          if (num2 != 0){
+          result = num1/num2
+          alert(result)
+          }
+          else{
+            alert("error: division by zero")
+        }
+    }  
+  </script>
+</body>
+</html>
